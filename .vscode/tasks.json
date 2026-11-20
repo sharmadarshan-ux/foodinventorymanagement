@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Validate Frontend build",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"Frontend",
+				"run",
+				"build"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Validate Backend Python",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"cd /d backend && \"e:/My Documents/Downloads/Food-Inventory-Expiry-Management-main/Food-Inventory-Expiry-Management-main/venv/Scripts/python.exe\" --version && \"e:/My Documents/Downloads/Food-Inventory-Expiry-Management-main/Food-Inventory-Expiry-Management-main/venv/Scripts/python.exe\" -m compileall -q app"
+			],
+			"isBackground": false
+		}
+	]
+}
