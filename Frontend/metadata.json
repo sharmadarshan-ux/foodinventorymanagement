@@ -1,6 +1,0 @@
-{
-  "name": "Food Inventory & Expiry Management",
-  "description": "AI-Powered Food Inventory and Expiry Management System (GEN-016).",
-  "requestFramePermissions": ["camera"],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
